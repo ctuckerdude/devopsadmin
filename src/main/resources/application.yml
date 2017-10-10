@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: admin
+    cloud:
+      consul:
+        host: localhost
+        port: 8500
+        discovery:
+          tags: devops-admin
+       #   healthCheckPath: http://localhost:8300/api/isAlive
+          healthCheckUrl: /api/isAlive
+          healthCheckInterval: 5s
+
+server:
+    port: 8300

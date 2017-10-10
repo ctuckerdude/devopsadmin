@@ -1,0 +1,25 @@
+<div class="card mb-3">
+    <div class="card-header">
+        {{title}}
+    </div>
+    <div class="card-block table-responsive">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Node</th>
+                <th>Service Name</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let healthInfo of healthInfoList; let i = index">
+                <th scope="row">{{i + 1}}</th>
+                <td>{{healthInfo.node}}</td>
+                <td>{{healthInfo.serviceName}}</td>
+                <td>{{healthInfo.status}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
