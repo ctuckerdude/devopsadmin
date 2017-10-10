@@ -7,9 +7,9 @@ The initial functionality consists of displaying health information for all serv
 with a Service Discovery Broker. More Devops functions will be included in future releases.
 HashiCorp Consul, https://www.consul.io/, was used for Service Discovery.
 
-For licencing and distribtion please consult the licences: 
-https://github.com/start-angular/SB-Admin-BS4-Angular-4/blob/master/LICENSE
-https://github.com/hashicorp/consul/blob/master/LICENSE
+For licencing and distribution please consult the licences: 
+1. https://github.com/start-angular/SB-Admin-BS4-Angular-4/blob/master/LICENSE
+2. https://github.com/hashicorp/consul/blob/master/LICENSE
 
 
 **Angular Requirements**: angular-v4.2.4, angular/cli-v1.1.3
