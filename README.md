@@ -1,11 +1,13 @@
 # DevopsAdmin
 The DevopsAdmin app is intended to provide a basis for functionality related to Devops activities.
-The application has been implemented using Angular JS 4 using the SB-Admin Angular JS 4 Template,
-https://startangular.com/product/sb-admin-bootstrap-4-angular-4/
+The application has been implemented as a Microservice using Spring Boot, Spring Cloud components 
+and Angular JS 4, incorporating the SB-Admin Angular JS 4 Template 
+(https://startangular.com/product/sb-admin-bootstrap-4-angular-4/). 
 
 The initial functionality consists of displaying health information for all services registered with
 with a Service Discovery Broker. More Devops functions will be included in future releases.
 HashiCorp Consul, https://www.consul.io/, was used for Service Discovery.
+A DockerFile and instructions are included to deploy as a docker container.
 
 For licencing and distribution please consult the licences: 
 1. https://github.com/start-angular/SB-Admin-BS4-Angular-4/blob/master/LICENSE
